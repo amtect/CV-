@@ -283,9 +283,9 @@ farneback_params = {
 ![alt text](images/image.png)
 
 
-![alt text](image-4.png)
-![alt text](image-5.png)
-![alt text](image-6.png)
+![alt text](images/image-4.png)
+![alt text](images/image-5.png)
+![alt text](images/image-6.png)
 
 
 ### 2. Sensitivity Analysis
@@ -297,7 +297,7 @@ farneback_params = {
 - Noise Map (карта шума)
 - Intensity Distribution (гистограмма яркости)
 
-![alt text](image-7.png)
+![alt text](images/image-7.png)
 
 ### 3. Lucas-Kanade Trajectory Tracking
 Траектории движения точек на кадрах 30, 60, 90:
@@ -305,8 +305,8 @@ farneback_params = {
 - Зелёные точки = текущие позиции
 - Визуализация накопленного движения
 
-![alt text](image-8.png)
-![alt text](image-2.png)
+![alt text](images/image-8.png)
+![alt text](images/image-2.png)
 
 
 ### 4. Corner Points Detected
@@ -314,14 +314,14 @@ farneback_params = {
 - Зелёные круги = обнаруженные углы
 - Концентрация на краях рыб, плавниках
 
-![alt text](image-11.png)
+![alt text](images/image-11.png)
 
 ### 5. Farnebäck Dense Optical Flow
 - Frame 1 & Frame 2 (исходные кадры)
 - Optical Flow HSV (цветовое направление)
 - Flow Magnitude (интенсивность движения)
 
-![alt text](image-12.png)
+![alt text](images/image-12.png)
 
 ### 6. Motion Detection and Segmentation
 - Original Frame 2
@@ -329,14 +329,14 @@ farneback_params = {
 - Raw Motion Mask (threshold = 6.7)
 - Filtered Motion Mask (после морфологической обработки)
 
-![alt text](image-13.png)
+![alt text](images/image-13.png)
 
 ### 7. Motion Field Vectors Overlay
 Векторное поле на оригинальном изображении:
 - Зелёные стрелки = направление и скорость движения
 - Длина стрелки пропорциональна скорости
 
-![alt text](image-9.png)
+![alt text](images/image-9.png)
 
 ### 8. Mask Fragmentation Analysis
 Анализ связных компонент:
@@ -344,7 +344,7 @@ farneback_params = {
 - Motion Mask (бинарная)
 - Connected Components (n=848) — цветная визуализация фрагментов
 
-![alt text](image-15.png)
+![alt text](images/image-15.png)
 
 ### 9. Motion Amplitude Over Time
 График изменения средней амплитуды движения по кадрам:
@@ -352,7 +352,7 @@ farneback_params = {
 - Пик на кадре 45 (2.56 px/frame)
 - Спад на кадре 20 и 80 (1.3-1.4 px/frame)
 
-![alt text](image-14.png)
+![alt text](images/image-14.png)
 ---
 
 ##  Методология исследования
