@@ -280,7 +280,7 @@ farneback_params = {
 - Flow Magnitude (тепловая карта)
 - Motion Mask (бинарная маска)
 - Motion Vectors (векторное поле)
-![alt text](image.png)
+![alt text](images/image.png)
 
 
 ![alt text](image-4.png)
